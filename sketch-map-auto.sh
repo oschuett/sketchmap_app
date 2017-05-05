@@ -26,7 +26,7 @@ ALD=$8
 BLD=$9
 
 
-rm FILELD.log
+rm $FILELD.log
 echo "Now running a preliminary iterative metric MDS and sketch-map."
 
 if [ ! -e $FILELD.imds ]; then
