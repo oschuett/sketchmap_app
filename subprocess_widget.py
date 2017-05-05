@@ -16,7 +16,7 @@ class SubprocessWidget(widgets.Box):
         super(SubprocessWidget, self).__init__([self.btn_startstop, self.output_area])
         
     def output_worker(self):
-        pre_tag = '<pre style="width:600px; max-height:250px; overflow-x:auto; line-height:1em; font-size:0.8em;">'   
+        pre_tag = '<pre style="width:600px; max-height:300px; overflow-x:auto; line-height:1em; font-size:0.8em;">'
         dots = 0
         latest = ""
         while(self.process.poll() == None):
